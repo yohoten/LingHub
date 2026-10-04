@@ -1,0 +1,27 @@
+{
+  "_readme": [
+    "灵枢 LingHub 运行配置。修改后重启生效。",
+    "查找顺序：环境变量 LINGSHU_CONFIG > <程序目录>/config/app_config.json > ~/.lingshu/app_config.json",
+    "license.enabled=false 时为离线开发模式：不弹授权窗、不发心跳、不访问外部地址。"
+  ],
+  "license": {
+    "enabled": false,
+    "api_base": "",
+    "backup_api_base": "",
+    "ping_endpoint": "/kami/ping",
+    "ping_root": "",
+    "backup_ping_root": "",
+    "app_id": "lingshu"
+  },
+  "update": {
+    "enabled": false,
+    "download_url": ""
+  },
+  "notice": {
+    "enabled": false
+  },
+  "buy_url": "",
+  "community": {
+    "group_url": ""
+  }
+}
